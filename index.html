@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link
+		href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Manrope:wght@400;600;700;800&display=swap"
+		rel="stylesheet">
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.min.css">
+	<title>Maze game</title>
+	<link rel="icon" type="image/png" href="icon.png">
+</head>
+
+<body>
+	<main>
+		<section id="left">
+			<p class="eyebrow">Projektna naloga 3</p>
+			<h1 id="title">Maze</h1>
+			<div class="timer-wrap">
+				<p class="timer-label">Čas</p>
+				<p id="timer">03:00</p>
+			</div>
+			<div class="actions">
+				<button id="startBtn">Start</button>
+				<button id="autoBtn">Solution</button>
+			</div>
+			<p class="hint">W A S D za premikanje</p>
+			<button class="visit-card" type="button">
+				<span class="line name">Aljaž Podgornik</span>
+				<span class="line">Razred: 4.RA</span>
+				<span class="line">Šolsko leto: 2025/26</span>
+			</button>
+		</section>
+		<section id="right">
+			<canvas id="canvas" width="485" height="485"></canvas>
+		</section>
+	</main>
+	<script src="labirint.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</body>
+
+</html>
