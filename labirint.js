@@ -393,7 +393,7 @@ function resetPlayer(){
 }
 
 function isGoalReached(){
-    return y + size >= 242 && x >= 114 && x <= 130;
+    return y + size >= 241 && x >= 114 && x <= 130;
 }
 
 function isWithinBounds(nx, ny){
