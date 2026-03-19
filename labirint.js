@@ -461,7 +461,7 @@ document.addEventListener("keydown", function(e){
             if(timerInterval) clearInterval(timerInterval);
             showWinAlert();
             resetPlayer();
-            totalTime = 60;
+            totalTime = 180;
             refreshTimerDisplay();
         }
     }
